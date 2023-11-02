@@ -1,8 +1,17 @@
-# React + Vite
+# Image resizer component
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
+- Drag and drop image upload
+- Image Resize or Crop
+- Zooming image
+- Setting Image size
 
-Currently, two official plugins are available:
+## Libraries used
+- react-dropzone (https://react-dropzone.js.org/)
+- react-easy-crop (https://valentinh.github.io/react-easy-crop/)
+- react-icons (https://react-icons.github.io/react-icons/)
+- sass (https://sass-lang.com/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Release
+### November 02, 2023
+- Initial
