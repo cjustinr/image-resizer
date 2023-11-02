@@ -1,0 +1,98 @@
+/* -- BUTTON START -- */
+button.btn {
+    background-color: rgba(19, 145, 210);
+    color: #fff;
+    border-radius: 3px;
+    font-size: 14px;
+    padding: 5px 12px;
+    border: none;
+    box-shadow: none;
+    transition: 0.3s all;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    cursor: pointer;
+
+    &:hover {
+        background-color: rgba(0, 95, 163, 1);
+
+    }
+    &:disabled,
+    &.is-loading {
+        cursor: not-allowed;
+        opacity: 0.5;
+
+        &:hover {
+            background-color: rgba(19, 145, 210);
+        }
+    }
+
+    font {
+        pointer-events: none !important;
+    }
+}
+/* -- BUTTON END -- */
+
+
+/* -- FILE UPLOAD START --*/
+.file-upload-wrapper {
+    background-color: rgba(243, 244, 245, 1);
+    .file-upload {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        cursor: pointer;
+    
+        p {
+            margin: 0;
+            font-style: italic;
+        }
+    
+        .icon-upload {
+            color: rgba(19, 145, 210);
+            font-size: 18px;
+        }
+    
+        img.img-preview {
+            width: auto;
+            height: auto;
+            object-fit: contain;
+    
+        }
+
+        .image-crop-modal-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            margin-top: 20px;
+            width: 100%;
+            padding: 0 10px;
+            .image-crop-container {
+                position: relative;
+            }
+
+            .controls {
+                display: flex;
+                align-items: center;
+                gap: 8px;
+
+                label {
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+
+    .file-upload-buttons {
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+}
+/* -- FILE UPLOAD END --*/
